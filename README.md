@@ -18,7 +18,18 @@ Latex Template Script es un script que fácilmente puedes integrar a tu consola 
 ## Instalación
 ```bash
 git clone 
+cd Latex-Template-Script/Scripts/
+chmod +x LatexTemplate.zsh
 ```
+Después escriba `pwd` y copie la dirección que le regresa la consola. A continuación escriba
+```bash
+open ~/.zshrc
+```
+y en la última linea concatene la dirección que le regreso `pwd`
+```bash
+alias "Direccionpwd/LatexTemplate.zsh"
+```
+
 ## Tutorial
 
 ## Funcionalidades
