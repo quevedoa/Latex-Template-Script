@@ -2,9 +2,24 @@
 #### Comunicación Escrita par Ingeniería en Computación
 ![alt text](https://github.com/quevedoa/Latex-Template-Script/blob/main/Misc/GIF1.gif)
 
-## ¿En qué consiste el proyecto?
+> Este proyecto fue creado por [quevedoa][]
 
-## ¿Qué funcionalidades tiene?
+Latex Template Script es un script que fácilmente puedes integrar a tu consola que te permite empezar a trabajar con distintos tipos de plantillas predefinidas de LaTex. El propósito principal es crear una solución eficiente para que el usuario no pierda tiempo buscando e importando plantillas de LaTex.
 
-## ¿Cómo se debe utilizar?
+## Atención 
+- Sólo funciona con computadoras que estén corriendo macOS Catalina 10.15+
+
+## Índice
+- [Instalación](#instalación)
+- [Tutorial](#tutorial)
+- [Funcionalidades](#funcionalidades)
+- [Aspectos Técnicos](#aspectos-técnicos)
+
+## Instalación
+
+## Tutorial
+
+## Funcionalidades
+
+## Aspectos Técnicos
 
