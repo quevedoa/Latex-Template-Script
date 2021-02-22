@@ -26,11 +26,15 @@ $ git clone
 $ cd Latex-Template-Script/Scripts/
 $ chmod +x LatexTemplate.zsh
 ```
-Usted esta adentro de un nuevo directorio. Copie la dirección del directorio ingresando el comando `pwd` y a continuación ingrese la siguiente linea:
+Usted esta adentro de un nuevo directorio. Escriba el siguiente comando y registre la respuesta que le da su computadora al picar *enter*.
+```bash
+$ pwd
+```
+A continuación ingrese la siguiente linea:
 ```bash
 $ open ~/.zshrc
 ```
-Esto hará que su computadora abra un archivo de texto con el título de `zshrc`. Adentro del archivo de texto recientemente abierto, en la última linea, copie y pegue lo siguiente linea, reemplazando *Direccionpwd* con la dirección que copió en el paso anterior con el comando de `pwd`.
+Esto hará que su computadora abra un archivo de texto con el título de `zshrc`. Adentro del archivo de texto recientemente abierto, en la última linea, copie y pegue lo siguiente linea, reemplazando *Direccionpwd* con la dirección que copió hace dos pasos con el comando de `pwd`.
 ```bash
 alias latexTemplate = "Direccionpwd/LatexTemplate.zsh"
 ```
@@ -45,6 +49,11 @@ La principal funcionalidad del script se invoca adentro de la terminal con tres 
 > Si no sabe que plantillas son las que están disponibles simplemente teclee `$ latexTemplate help`. Esto abrirá un documento de texto con una lista de todas las plantillas disponibles.
 
 Al correr los tres argumentos en conjunto, el script creará un folder dentro de su directorio actual con el nombre que usted dió como tercer argumento y dentro encontrará la plantilla que usted especificó como segundo argumento.
+
+### Ejemplo
+> Utilizando la plantilla `CV` que permite crear documentos con formato de curriculum vitae.
+![alt text](https://github.com/quevedoa/Latex-Template-Script/blob/main/Misc/VideoEjemploSem.gif)
+
 
 ## ¿Cómo funciona? 
 La herramienta consta de dos directorios: `Templates` y `Scripts`. Dentro de `Templates` están ubicadas las distintas plantillas de LaTex que se pueden utilizar y dentro de `Scripts` 
