@@ -1,7 +1,6 @@
 # Latex Template Script 
 #### Comunicación Escrita para Ingeniería en Computación
 ![alt text](https://github.com/quevedoa/Latex-Template-Script/blob/main/Misc/GIF1.gif)
-
 > Este proyecto fue creado por [quevedoa](https://github.com/quevedoa)
 
 Latex Template Script es un script que fácilmente puedes integrar a tu consola que te permite empezar a trabajar con distintos tipos de plantillas predefinidas de LaTex. El propósito principal es crear una solución eficiente para que el usuario no pierda tiempo buscando e importando plantillas de LaTex.
@@ -38,6 +37,7 @@ alias latexTemplate = "Direccionpwd/LatexTemplate.zsh"
 Si los comandos previos corrieron sin problema usted tiene el programa instalado y está listo para avanzar a la siguiente sección.
 
 ## ¿Cómo utilizar? 
+![alt text](https://github.com/quevedoa/Latex-Template-Script/blob/main/Misc/partesCommand.png)
 
 ## ¿Cómo funciona? 
 La herramienta consta de dos directorios: `Templates` y `Scripts`. Dentro de `Templates` están ubicadas las distintas plantillas de LaTex que se pueden utilizar y dentro de `Scripts` 
