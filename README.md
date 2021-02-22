@@ -30,14 +30,19 @@ Usted esta adentro de un nuevo directorio. Copie la dirección del directorio in
 ```bash
 $ open ~/.zshrc
 ```
-Esto hará que su computadora abra un archivo de texto con el título de `zshrc`. Adentro del archivo de texto recientemente abierto, en la última linea, copie y pegue lo siguiente linea, reemplazando *Direccionpwd* con la dirección que copio en el paso anterior con el comando de `pwd`.
+Esto hará que su computadora abra un archivo de texto con el título de `zshrc`. Adentro del archivo de texto recientemente abierto, en la última linea, copie y pegue lo siguiente linea, reemplazando *Direccionpwd* con la dirección que copió en el paso anterior con el comando de `pwd`.
 ```bash
 alias latexTemplate = "Direccionpwd/LatexTemplate.zsh"
 ```
 Si los comandos previos corrieron sin problema usted tiene el programa instalado y está listo para avanzar a la siguiente sección.
 
 ## ¿Cómo utilizar? 
+La principal funcionalidad del script se invoca adentro de la terminal con tres argumentos: 
 ![alt text](https://github.com/quevedoa/Latex-Template-Script/blob/main/Misc/partesCommand.png)
+- **latexTemplate** se refiere al primer argumento que debes ingresar en la terminal que básicamente estará indicando que el programa debe de comenzar.
+- **Plantilla** se refiere al tipo de plantilla que desea usar. Es importante notar que la plantilla debe de estar dentro del folder `Templates`, ya que de lo contrario el programa no podrá continuar.
+> Si no sabe que plantillas son las que están disponibles simplemente teclee `$ latexTemplate help`. Esto abrirá un documento de texto con una lista de todas las plantillas disponibles.
+
 
 ## ¿Cómo funciona? 
 La herramienta consta de dos directorios: `Templates` y `Scripts`. Dentro de `Templates` están ubicadas las distintas plantillas de LaTex que se pueden utilizar y dentro de `Scripts` 
