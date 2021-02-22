@@ -42,7 +42,8 @@ La principal funcionalidad del script se invoca adentro de la terminal con tres 
 - **latexTemplate** se refiere al primer argumento que debes ingresar en la terminal que básicamente estará indicando que el programa debe de comenzar.
 - **Plantilla** se refiere al tipo de plantilla que desea usar. Es importante notar que la plantilla debe de estar dentro del folder `Templates`, ya que de lo contrario el programa no podrá continuar.
 > Si no sabe que plantillas son las que están disponibles simplemente teclee `$ latexTemplate help`. Esto abrirá un documento de texto con una lista de todas las plantillas disponibles.
-
+- **Nombre** se refiere a el nombre que usted desea que tenga el documento que va a crear.
+Al correr los tres argumentos en conjunto, el script creará un folder dentro de su directorio actual con el nombre que usted dió como tercer argumento y dentro encontrará la plantilla que usted especificó como segundo argumento.
 
 ## ¿Cómo funciona? 
 La herramienta consta de dos directorios: `Templates` y `Scripts`. Dentro de `Templates` están ubicadas las distintas plantillas de LaTex que se pueden utilizar y dentro de `Scripts` 
