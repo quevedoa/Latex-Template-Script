@@ -53,8 +53,8 @@ Al correr los tres argumentos en conjunto, el script creará un folder dentro de
 Ahora usted es libre de editar el archivo con terminación `.tex` para comenzar a crear su archivo con LaTex.
 
 ### Ejemplo
-> Utilizando la plantilla `CV` que permite crear documentos con formato de curriculum vitae.
-![alt text](https://github.com/quevedoa/Latex-Template-Script/blob/main/Misc/VideoEjemploSem.gif)
+> Este ejemplo ilustra el funcionamiento del programa utilizando la plantilla `CV` que permite crear documentos con formato de curriculum vitae.
+![alt text](https://github.com/quevedoa/Latex-Template-Script/blob/main/Misc/VideoGifSem.gif)
 
 ## ¿Cómo funciona? 
 La herramienta consta de dos directorios: `Templates` y `Scripts`. Dentro de `Templates` están ubicadas las distintas plantillas de LaTex que se pueden utilizar y dentro de `Scripts` esta el código del programa y el código necesario para que corra desde su terminal. Cuando usted instala el programa, el comando `$ git clone` copia un folder llamado **Latex-Template-Script** desde la nube de Github, directo a su computadora.
