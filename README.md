@@ -9,10 +9,10 @@ Latex Template Script es un script que fácilmente puede integrar a su consola, 
 ---
 
 ## Índice
-- [¿Por qué se creó?](#¿por-qué-se-creó?)
-- [¿Cómo instalar?](#¿cómo-instalar?)
-- [¿Cómo utilizar?](#¿cómo-utilizar?)
-- [¿Cómo funciona?](#¿cómo-funciona?)
+- [¿Por qué se creó?](#por-qué-se-creó)
+- [¿Cómo instalar?](#cómo-instalar)
+- [¿Cómo utilizar?](#cómo-utilizar)
+- [¿Cómo funciona?](#cómo-funciona)
 
 ## ¿Por qué se creó?
 LaTex es un lenguaje de programación creado en 1984 para poder crear documentos académicos que contienen símbolos matemáticos y científicos de una manera más fácil y eficiente. Hoy en día, LaTex se ha vuelto muy popular lo cual ha conducido a la creación y publicación de plantillas preescritas, que definen el formato que debe seguir un documento. El problema al utilizar estas plantillas es que se necesita copiar la plantilla manualmente al directorio donde se está trabajando y cuando se requieren varios documentos, el trabajo termina siendo muy repetitivo y cansado. Este programa se creó para resolver ese problema directamente desde la terminal, permitiendo al usuario copiar plantillas completas con tres simples comandos. 
