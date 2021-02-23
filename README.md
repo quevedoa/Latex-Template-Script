@@ -64,5 +64,7 @@ La herramienta consta de dos directorios: `Templates` y `Scripts`. Dentro de `Te
 
  Adentro de **Templates** puede ver las diferentes plantillas disponibles y adentro de **Scripts** puede ver dos archivos. `LatexTemplate.zsh` se encarga de toda la lógica del programa y `latexTemplateHelp.txt` es el archivo de texto que se abre cuando corre el comando `$ latexTemplate help`, que contiene una lista de todas las plantillas disponibles.
 
+---
+
 #### Autor
 Andres Quevedo - 181336
