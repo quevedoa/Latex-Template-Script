@@ -46,9 +46,11 @@ La principal funcionalidad del script se invoca adentro de la terminal con tres 
 - **latexTemplate** se refiere al primer argumento que debes ingresar en la terminal que básicamente estará indicando que el programa debe de comenzar.
 - **Plantilla** se refiere al tipo de plantilla que desea usar. Es importante notar que la plantilla debe de estar dentro del folder `Templates`, ya que de lo contrario el programa no podrá continuar.
 - **Nombre** se refiere a el nombre que usted desea que tenga el documento que va a crear.
-> Si no sabe que plantillas son las que están disponibles simplemente teclee `$ latexTemplate help`. Esto abrirá un documento de texto con una lista de todas las plantillas disponibles.
+> **Tip:** Si no sabe cuales son las plantillas que puede utilizar, simplemente teclee `$ latexTemplate help` dentro de su terminal, esto abrirá un documento de texto con una lista de todas las plantillas disponibles.
 
-Al correr los tres argumentos en conjunto, el script creará un folder dentro de su directorio actual con el nombre que usted dió como tercer argumento y dentro encontrará la plantilla que usted especificó como segundo argumento.
+Al correr los tres argumentos en conjunto, el script creará un folder dentro de su directorio actual con el nombre que usted dió como tercer argumento y adentro encontrará la plantilla que usted especificó como segundo argumento.
+
+Ahora usted es libre de editar el archivo con terminación `.tex` para comenzar a crear su archivo con LaTex.
 
 ### Ejemplo
 > Utilizando la plantilla `CV` que permite crear documentos con formato de curriculum vitae.
@@ -56,7 +58,14 @@ Al correr los tres argumentos en conjunto, el script creará un folder dentro de
 
 
 ## ¿Cómo funciona? 
-La herramienta consta de dos directorios: `Templates` y `Scripts`. Dentro de `Templates` están ubicadas las distintas plantillas de LaTex que se pueden utilizar y dentro de `Scripts` 
+La herramienta consta de dos directorios: `Templates` y `Scripts`. Dentro de `Templates` están ubicadas las distintas plantillas de LaTex que se pueden utilizar y dentro de `Scripts`. Cuando usted instala el programa, el comando `$ git clone` copia un folder llamado *Latex-Template-Script* desde la nube de Github, directo a su computadora. La organización de el folder *Latex-Template-Script* se describe en el diagrama a continuación:
+
+![alt text](https://github.com/quevedoa/Latex-Template-Script/blob/main/Misc/folderDiagram.png)
+
+
+## ¿Cómo funciona? 
+La herramienta consta de dos directorios: `Templates` y `Scripts`. Dentro de `Templates` están ubicadas las distintas plantillas de LaTex que se pueden utilizar y dentro de `Scripts`. Cuando usted instala el programa, el comando `$ git clone` copia un folder llamado *Latex-Template-Script* desde la nube de Github, directo a su computadora. La organización de el folder *Latex-Template-Script* se describe en el diagrama a continuación:
+![alt text]folderDiagram.png)
 
 
 ## Troubleshooting
