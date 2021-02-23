@@ -56,16 +56,16 @@ Ahora usted es libre de editar el archivo con terminación `.tex` para comenzar 
 > Utilizando la plantilla `CV` que permite crear documentos con formato de curriculum vitae.
 ![alt text](https://github.com/quevedoa/Latex-Template-Script/blob/main/Misc/VideoEjemploSem.gif)
 
-
 ## ¿Cómo funciona? 
-La herramienta consta de dos directorios: `Templates` y `Scripts`. Dentro de `Templates` están ubicadas las distintas plantillas de LaTex que se pueden utilizar y dentro de `Scripts`. Cuando usted instala el programa, el comando `$ git clone` copia un folder llamado *Latex-Template-Script* desde la nube de Github, directo a su computadora. La organización de el folder *Latex-Template-Script* se describe en el diagrama a continuación:
+La herramienta consta de dos directorios: `Templates` y `Scripts`. Dentro de `Templates` están ubicadas las distintas plantillas de LaTex que se pueden utilizar y dentro de `Scripts` esta el código del programa y el código necesario para que corra desde su terminal. Cuando usted instala el programa, el comando `$ git clone` copia un folder llamado **Latex-Template-Script** desde la nube de Github, directo a su computadora.
+
+ La organización del folder **Latex-Template-Script** se describe en el diagrama a continuación:
 
 ![alt text](https://github.com/quevedoa/Latex-Template-Script/blob/main/Misc/folderDiagram.png)
 
+ Adentro de **Templates** puede ver las diferentes plantillas disponibles y adentro de **Scripts** puede ver dos archivos. `LatexTemplate.zsh` se encarga de toda la lógica del programa y `latexTemplateHelp.txt` es el archivo de texto que se abre cuando corre el comando `$ latexTemplate help` que contiene una lista de todas las plantillas disponibles.
 
-## ¿Cómo funciona? 
-La herramienta consta de dos directorios: `Templates` y `Scripts`. Dentro de `Templates` están ubicadas las distintas plantillas de LaTex que se pueden utilizar y dentro de `Scripts`. Cuando usted instala el programa, el comando `$ git clone` copia un folder llamado *Latex-Template-Script* desde la nube de Github, directo a su computadora. La organización de el folder *Latex-Template-Script* se describe en el diagrama a continuación:
-![alt text]folderDiagram.png)
+
 
 
 ## Troubleshooting
